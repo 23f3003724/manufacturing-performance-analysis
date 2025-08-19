@@ -1,24 +1,24 @@
-# analysis.py
 import matplotlib.pyplot as plt
 
-# Quarterly equipment efficiency rate data
-quarters = ['Q1', 'Q2', 'Q3', 'Q4']
-efficiency_rate = [75.49, 72.86, 76.99, 75.64]
+# Quarterly Equipment Efficiency Rate data
+quarters = ["Q1", "Q2", "Q3", "Q4"]
+efficiency = [75.49, 72.86, 76.99, 75.64]
 industry_target = 90
-average_efficiency = sum(efficiency_rate) / len(efficiency_rate)
+average = sum(efficiency) / len(efficiency)
 
-# Print average
-print(f"Average Equipment Efficiency Rate: {average_efficiency:.2f}")
+print(f"Quarterly Data: {list(zip(quarters, efficiency))}")
+print(f"Average Efficiency: {average:.2f}")
 
-# Plotting the trend vs industry benchmark
+# Plotting
 plt.figure(figsize=(8,5))
-plt.plot(quarters, efficiency_rate, marker='o', label='Company Efficiency')
-plt.axhline(y=industry_target, color='r', linestyle='--', label='Industry Target (90)')
-plt.title('Quarterly Equipment Efficiency Rate - 2024')
+plt.plot(quarters, efficiency, marker='o', linestyle='-', color='b', label='Equipment Efficiency')
+plt.hlines(industry_target, xmin=0, xmax=3, colors='r', linestyles='dashed', label='Industry Target (90)')
+plt.title('Quarterly Equipment Efficiency Rate (2024)')
 plt.xlabel('Quarter')
 plt.ylabel('Efficiency Rate')
-plt.ylim(70, 95)
-plt.grid(True)
+plt.ylim([70, 100])
 plt.legend()
-plt.savefig('efficiency_trend.png', dpi=300)
+plt.grid(True)
+plt.tight_layout()
+plt.savefig('efficiency_trend.png')
 plt.show()
