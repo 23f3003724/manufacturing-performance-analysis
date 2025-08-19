@@ -1,41 +1,61 @@
-# Manufacturing Performance Analysis
+# Quarterly Equipment Efficiency Rate Analysis (2024)
 
-**Author:** Vedika Gupta  
-**Email:** 23f3003724@ds.study.iitm.ac.in  
+**Prepared with LLM code assistance (ChatGPT Codex & Jules).  
+Contact: 23f3003724@ds.study.iitm.ac.in  
+GitHub PR created as part of AI-driven analytics assignment.**
 
-## Overview
-This analysis evaluates the quarterly equipment efficiency rates for 2024 and compares them with the industry benchmark target of 90. The goal is to identify performance issues and provide actionable recommendations.
+## Dataset
 
-## Quarterly Equipment Efficiency Rate - 2024
 | Quarter | Efficiency Rate |
-|---------|----------------|
+| ------- | -------------- |
 | Q1      | 75.49          |
 | Q2      | 72.86          |
 | Q3      | 76.99          |
 | Q4      | 75.64          |
 | **Average** | **75.24** |
 
-## Key Findings
-- The company's average efficiency rate is **75.24**, significantly below the industry target of 90.
-- Q2 showed the lowest efficiency (72.86), suggesting higher downtime or maintenance issues.
-- Overall trend indicates consistent underperformance across all quarters.
-
-## Business Implications
-- Persistent low efficiency leads to increased operational costs and lower production output.
-- Maintenance costs are rising due to reactive rather than predictive maintenance practices.
-- Falling behind industry benchmarks can impact competitiveness and profitability.
-
-## Recommendations
-1. **Implement Predictive Maintenance Program**:
-   - Use sensors and IoT devices to monitor equipment health.
-   - Apply predictive analytics to anticipate failures and reduce downtime.
-2. Schedule regular equipment audits to identify bottlenecks.
-3. Train operators to optimize usage and reduce equipment stress.
-
-## Visualization
-![Quarterly Efficiency Trend](efficiency_trend.png)
+**Industry Target:** 90
 
 ---
 
-**Conclusion:**  
-To reach the target efficiency of 90, the company must transition from reactive maintenance to a predictive maintenance program, supported by data-driven monitoring and timely interventions.
+## Visualization
+
+![Equipment Efficiency Trend](efficiency_trend.png)
+
+---
+
+## Key Findings
+
+- The average equipment efficiency rate for 2024 was **75.24**, significantly below the industry target of 90.
+- Efficiency remained relatively stable, ranging from 72.86 (Q2 low) to 76.99 (Q3 high).
+- No quarter approached the industry standard, suggesting systemic or process issues.
+- The data indicates a persistent shortfall rather than occasional dips.
+
+## Business Implications
+
+- The shortfall translates into potential production losses, higher operational costs, and reduced competitiveness.
+- Failure to meet the industry target may impact client trust, market share, and long-term profitability.
+
+## Recommendations
+
+**Implement a Predictive Maintenance Program**
+- Use real-time sensor data and AI/ML models to predict and prevent equipment failures.
+- Predictive maintenance can increase uptime, efficiency, and help transition performance toward the industry target.
+- Regularly review and benchmark maintenance strategies against best-in-class performers.
+
+**Additional Actions**
+- Invest in staff training focused on equipment operation and quick troubleshooting.
+- Analyze root causes of efficiency loss (e.g., machine downtime, setup errors).
+- Adopt continuous improvement methodologies (Lean, Six Sigma).
+
+---
+
+> *“This analysis and report were generated and verified with assistance from AI code tools (ChatGPT Codex, Jules) and submitted as per assignment requirements.”*
+
+---
+
+## Contact
+
+For queries, verification, or further collaboration:  
+23f3003724@ds.study.iitm.ac.in
+
